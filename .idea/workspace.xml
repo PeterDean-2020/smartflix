@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92423d43-eae4-4424-b0d3-68797e2a01d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/smartflix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smartflix.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/movie.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1622204129972</updated>
       <workItem from="1622204131262" duration="774000" />
-      <workItem from="1622205128728" duration="3601000" />
+      <workItem from="1622205128728" duration="3647000" />
+      <workItem from="1627982785646" duration="3278000" />
     </task>
     <servers />
   </component>
@@ -172,5 +173,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1334" y="178" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627986466573">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1334" y="178" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1627986466573" />
   </component>
 </project>

@@ -45,18 +45,24 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.8, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.2.5, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, RVM: ruby-2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.7.6, RVM: ruby-2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v2.7.6, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faker (v2.18.0, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.1, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, RVM: ruby-2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.18.1, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.10, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.5.1, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.9.1, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.1, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, RVM: ruby-2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.3.1, RVM: ruby-2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2021.0704, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.0.3, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.14.4, RVM: ruby-2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.6.0, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.5.3, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.7, RVM: ruby-2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.11.6, RVM: ruby-2.7.2) [gem]" level="application" />
