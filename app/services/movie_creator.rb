@@ -10,8 +10,8 @@ class MovieCreator < ApplicationService
   end
 
   def call
-    movie_data = fetch_movie_data.except('response', 'type')
-    create_movie(movie_data)
+    movie_data = fetch_movie_data
+    create_movie(movie_data.except('response', 'type')) if movie_data['response'] == 'True'
   end
 
   def fetch_movie_data

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_03_112228) do
+ActiveRecord::Schema.define(version: 2021_08_03_133652) do
 
   create_table "movies", charset: "utf8mb4", force: :cascade do |t|
     t.string "title", null: false
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_08_03_112228) do
     t.float "imdb_rating"
     t.bigint "imdb_votes"
     t.date "dvd"
+    t.index ["title"], name: "index_movies_on_title"
   end
 
 end
