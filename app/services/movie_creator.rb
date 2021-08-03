@@ -1,24 +1,18 @@
 class MovieCreator < ApplicationService
-  include HTTParty
-  attr_reader :title
+  include Omdb
 
-  base_uri 'http://www.omdbapi.com/'
-  default_params apikey: ENV['OMDB_API_KEY']
+  attr_reader :title
 
   def initialize(title)
     @title = title
   end
 
   def call
-    movie_data = fetch_movie_data
-    create_movie(movie_data.except('response', 'type')) if movie_data['response'] == 'True'
-  end
-
-  def fetch_movie_data
-    self.class.get('', query: { t: title }).parsed_response.transform_keys(&:underscore)
+    movie = Omdb::Movie.find_by_title(title)
+    create_movie(movie.data) if movie.response == 'True'
   end
 
   def create_movie(movie_attributes)
-    Movie.create!(movie_attributes)
+    ::Movie.create!(movie_attributes)
   end
 end
