@@ -27,3 +27,6 @@
 
 # Ignore .env files
 *.env*
+
+# Ignore .idea
+.idea/*
